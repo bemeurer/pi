@@ -1,3 +1,9 @@
+extern crate num;
+
+mod riemann;
+
+pub use riemann::*;
+
 #[cfg(test)]
 mod tests {
     #[test]
